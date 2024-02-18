@@ -1,6 +1,6 @@
 {
-  "name": "chattpf-dataset-generator",
-  "module": "index.ts",
+  "name": "gpt-tweet-dataset-generator",
+  "module": "src/index.ts",
   "type": "module",
   "scripts": {
     "postinstall": "lefthook install",

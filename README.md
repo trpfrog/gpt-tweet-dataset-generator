@@ -17,17 +17,17 @@ Twitter から取得できる全ツイート履歴から GPT-* の fine-tuning �
 1. Twitter から全ツイート履歴を取得する
 2. `bun install`
 3. 環境変数に適切な値を設定 (必要な環境変数は `src/env.ts` を参照)
-  - `.env` を使用できます。
+    - `.env` を使用できます。
 4. Twitter から取得しているツイート履歴に含まれる `tweets.js` や `tweets-part-*.js` などのファイル名を `tweet-data-paths.txτ` に追加
-  - 例: `tweet-data-paths.txt`
-    ```
-    tweets.js
-    tweets-part-1.js
-    tweets-part-2.js
-    ```
+    - 例: `tweet-data-paths.txt`
+      ```
+      tweets.js
+      tweets-part-1.js
+      tweets-part-2.js
+      ```
 5. `bun start` で実行
-  - OpenAI API を叩くことに注意してください
-  - 1Password を使用する場合は `bun run start-with-op` で実行できます
+    - OpenAI API を叩くことに注意してください
+    - 1Password を使用する場合は `bun run start-with-op` で実行できます
 
 ## 動作環境
 
